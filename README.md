@@ -29,3 +29,10 @@ The Motion Detection Car Game will be developed using the following technologies
 -	User Authentication: Firebase Authentication
 -	Database: Firebase Realtime Database
 -	Libraries: pygame - firebase_admin - cv2 - pyrebase4 – mediapipe - pyautogui
+
+
+Many versions of this game has been made:
+- a dynamic one where the window can change sizes
+- a static one
+- a version with backend
+- a version with a virtual mouse moved with the mouvement of the hande detected by the cam
