@@ -36,16 +36,16 @@ pygame.init()
 
 #firebase settings initialization
 config = {
-    "apiKey": "AIzaSyAJNUfYSuR8bInj88qgIIEVdknfVvae6dQ",
-    "authDomain": "final-project-csc-436.firebaseapp.com",
-    "databaseURL": "https://final-project-csc-436-default-rtdb.europe-west1.firebasedatabase.app",
-    "storageBucket": "final-project-csc-436.appspot.com"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "storageBucket": ""
 }
 firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
 # Initialize Firebase Admin SDK with your credentials
 cred = credentials.Certificate("resources/credentials.json")
-firebase_admin.initialize_app(cred, {"databaseURL" : "https://final-project-csc-436-default-rtdb.europe-west1.firebasedatabase.app/"})
+firebase_admin.initialize_app(cred, {"databaseURL" : ""})
 
 #_______________________FRAME_________________________#
 
